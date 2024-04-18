@@ -1,0 +1,727 @@
+000 (120894539.000.000) 2024-04-18 05:44:09 Job submitted from host: <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>
+...
+028 (120894539.000.000) 2024-04-18 05:44:09 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:09.504"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+MyType = "SubmitEvent"
+Proc = 0
+SubmitHost = "<192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>"
+Subproc = 0
+TriggerEventTypeName = "ULOG_SUBMIT"
+TriggerEventTypeNumber = 0
+...
+040 (120894539.000.000) 2024-04-18 05:44:19 Started transferring input files
+	Transferring to host: <145.100.49.119:37235?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector1#19175437%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector4#9451208&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-37235&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+...
+028 (120894539.000.000) 2024-04-18 05:44:19 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:19.524"
+EventTypeNumber = 28
+Host = "<145.100.49.119:37235?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector1#19175437%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector4#9451208&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-37235&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 2
+...
+040 (120894539.000.000) 2024-04-18 05:44:19 Finished transferring input files
+...
+028 (120894539.000.000) 2024-04-18 05:44:19 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:19.680"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 3
+...
+001 (120894539.000.000) 2024-04-18 05:44:20 Job executing on host: <145.100.49.119:38273?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector9#19187063%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494298&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-38273&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+	SlotName: slot1_1@wn-a10-01.gina.surfsara.nl
+	AvailableGPUs = { GPUs_GPU_58114a80 }
+	CondorScratchDir = "/tmp/traLDmu7fH5niyfV3nXQVtOmABFKDmABFKDm6bKKDm16DMDm3qbOSm/glide_BAman6/execute/dir_27014"
+	Cpus = 1
+	Disk = 6051028
+	GPUs = 1
+	GPUs_GPU_58114a80 = [ GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceName = "NVIDIA A10"; DriverVersion = 12.3; Id = "GPU-58114a80"; ECCEnabled = true; Capability = 8.6; MaxSupportedVersion = 12030; ClockMhz = 1695.0; ComputeUnits = 72; DevicePciBusId = "0000:00:08.0"; DeviceUuid = "58114a80-7830-269c-43ca-38b2b22978be" ]
+	Memory = 1024
+...
+028 (120894539.000.000) 2024-04-18 05:44:20 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:20.942"
+EventTypeNumber = 28
+ExecuteHost = "<145.100.49.119:38273?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector9#19187063%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494298&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-38273&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+ExecuteProps = [ GPUs_GPU_58114a80 = [ ECCEnabled = true; Id = "GPU-58114a80"; DriverVersion = 12.3; DeviceName = "NVIDIA A10"; GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceUuid = "58114a80-7830-269c-43ca-38b2b22978be"; DevicePciBusId = "0000:00:08.0"; ComputeUnits = 72; ClockMhz = 1695.0; MaxSupportedVersion = 12030; Capability = 8.6 ]; CondorScratchDir = "/tmp/traLDmu7fH5niyfV3nXQVtOmABFKDmABFKDm6bKKDm16DMDm3qbOSm/glide_BAman6/execute/dir_27014"; GPUs = 1; AvailableGPUs = { GPUs_GPU_58114a80 }; Memory = 1024; Cpus = 1; Disk = 6051028 ]
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "ExecuteEvent"
+Proc = 0
+SlotName = "slot1_1@wn-a10-01.gina.surfsara.nl"
+Subproc = 0
+TriggerEventTypeName = "ULOG_EXECUTE"
+TriggerEventTypeNumber = 1
+...
+006 (120894539.000.000) 2024-04-18 05:44:37 Image size of job updated: 1026908
+	23  -  MemoryUsage of job (MB)
+	22812  -  ResidentSetSize of job (KB)
+...
+028 (120894539.000.000) 2024-04-18 05:44:37 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:37.938"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MemoryUsage = 23
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 22812
+Size = 1026908
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+040 (120894539.000.000) 2024-04-18 05:44:38 Started transferring output files
+...
+028 (120894539.000.000) 2024-04-18 05:44:38 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:38.909"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 5
+...
+040 (120894539.000.000) 2024-04-18 05:44:39 Finished transferring output files
+...
+028 (120894539.000.000) 2024-04-18 05:44:39 Job ad information event triggered.
+Cluster = 120894539
+EventTime = "2024-04-18T05:44:39.068"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 6
+...
+005 (120894539.000.000) 2024-04-18 05:44:46 Job terminated.
+	(1) Normal termination (return value 127)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	159  -  Run Bytes Sent By Job
+	146  -  Run Bytes Received By Job
+	159  -  Total Bytes Sent By Job
+	146  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       29  1048576   6051028 
+	   Gpus (Average)       :                 1         1 "GPU-58114a80"
+	   Memory (MB)          :       23     1024      1024 
+	   TimeExecute (s)      :       18                    
+	   TimeSlotBusy (s)     :       23                    
+
+	Job terminated of its own accord at 2024-04-18T12:44:37Z with exit-code 127.
+...
+028 (120894539.000.000) 2024-04-18 05:44:46 Job ad information event triggered.
+AssignedGpus = "GPU-58114a80"
+Cluster = 120894539
+Cpus = 1
+Disk = 6051028
+DiskUsage = 29
+EventTime = "2024-04-18T05:44:46.959"
+EventTypeNumber = 28
+GPUs = 1
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+Memory = 1024
+MemoryUsage = 23
+MyType = "JobTerminatedEvent"
+Proc = 0
+ReceivedBytes = 146.0
+RequestCpus = 1
+RequestDisk = 1048576
+RequestGpus = 1
+RequestMemory = 1024
+ReturnValue = 127
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+RunRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+SentBytes = 159.0
+Subproc = 0
+TerminatedNormally = true
+TimeExecuteUsage = 18
+TimeSlotBusyUsage = 23
+ToE = [ How = "OF_ITS_OWN_ACCORD"; Who = "itself"; ExitBySignal = false; When = 1713444277; HowCode = 0; ExitCode = 127 ]
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalReceivedBytes = 146.0
+TotalRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalSentBytes = 159.0
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TriggerEventTypeNumber = 5
+...
+000 (120894938.000.000) 2024-04-18 05:49:31 Job submitted from host: <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>
+...
+028 (120894938.000.000) 2024-04-18 05:49:31 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:49:31.964"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+MyType = "SubmitEvent"
+Proc = 0
+SubmitHost = "<192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>"
+Subproc = 0
+TriggerEventTypeName = "ULOG_SUBMIT"
+TriggerEventTypeNumber = 0
+...
+040 (120894938.000.000) 2024-04-18 05:50:12 Started transferring input files
+	Transferring to host: <145.100.49.119:41125?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector4#19191960%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector9#9475319&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-41125&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+...
+028 (120894938.000.000) 2024-04-18 05:50:12 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:12.737"
+EventTypeNumber = 28
+Host = "<145.100.49.119:41125?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector4#19191960%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector9#9475319&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-41125&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 2
+...
+040 (120894938.000.000) 2024-04-18 05:50:26 Finished transferring input files
+...
+028 (120894938.000.000) 2024-04-18 05:50:26 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:26.215"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 3
+...
+001 (120894938.000.000) 2024-04-18 05:50:28 Job executing on host: <145.100.49.119:38273?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector9#19187063%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494298&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-38273&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+	SlotName: slot1_1@wn-a10-01.gina.surfsara.nl
+	AvailableGPUs = { GPUs_GPU_58114a80 }
+	CondorScratchDir = "/tmp/traLDmu7fH5niyfV3nXQVtOmABFKDmABFKDm6bKKDm16DMDm3qbOSm/glide_BAman6/execute/dir_31304"
+	Cpus = 1
+	Disk = 6051028
+	GPUs = 1
+	GPUs_GPU_58114a80 = [ GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceName = "NVIDIA A10"; DriverVersion = 12.3; Id = "GPU-58114a80"; ECCEnabled = true; Capability = 8.6; MaxSupportedVersion = 12030; ClockMhz = 1695.0; ComputeUnits = 72; DevicePciBusId = "0000:00:08.0"; DeviceUuid = "58114a80-7830-269c-43ca-38b2b22978be" ]
+	Memory = 1024
+...
+028 (120894938.000.000) 2024-04-18 05:50:28 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:28.300"
+EventTypeNumber = 28
+ExecuteHost = "<145.100.49.119:38273?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector9#19187063%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494298&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-38273&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+ExecuteProps = [ GPUs_GPU_58114a80 = [ ECCEnabled = true; Id = "GPU-58114a80"; DriverVersion = 12.3; DeviceName = "NVIDIA A10"; GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceUuid = "58114a80-7830-269c-43ca-38b2b22978be"; DevicePciBusId = "0000:00:08.0"; ComputeUnits = 72; ClockMhz = 1695.0; MaxSupportedVersion = 12030; Capability = 8.6 ]; CondorScratchDir = "/tmp/traLDmu7fH5niyfV3nXQVtOmABFKDmABFKDm6bKKDm16DMDm3qbOSm/glide_BAman6/execute/dir_31304"; GPUs = 1; AvailableGPUs = { GPUs_GPU_58114a80 }; Memory = 1024; Cpus = 1; Disk = 6051028 ]
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "ExecuteEvent"
+Proc = 0
+SlotName = "slot1_1@wn-a10-01.gina.surfsara.nl"
+Subproc = 0
+TriggerEventTypeName = "ULOG_EXECUTE"
+TriggerEventTypeNumber = 1
+...
+006 (120894938.000.000) 2024-04-18 05:50:37 Image size of job updated: 42500
+	3  -  MemoryUsage of job (MB)
+	3060  -  ResidentSetSize of job (KB)
+...
+028 (120894938.000.000) 2024-04-18 05:50:37 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:37.491"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MemoryUsage = 3
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 3060
+Size = 42500
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+004 (120894938.000.000) 2024-04-18 05:50:41 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	120410600  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   117618  1048576   6051028 
+	   Gpus (Average)       :                 1         1 "GPU-58114a80"
+	   Memory (MB)          :        3     1024      1024 
+	   TimeExecute (s)      :       10                    
+	   TimeSlotBusy (s)     :       35                    
+...
+028 (120894938.000.000) 2024-04-18 05:50:41 Job ad information event triggered.
+Checkpointed = false
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:41.398"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "14214046"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc03-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins6@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470924"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "JobEvictedEvent"
+Proc = 0
+ReceivedBytes = 120410600.0
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+RunRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+SentBytes = 0.0
+Subproc = 0
+TerminatedAndRequeued = false
+TerminatedNormally = false
+TriggerEventTypeName = "ULOG_JOB_EVICTED"
+TriggerEventTypeNumber = 4
+...
+009 (120894938.000.000) 2024-04-18 05:50:41 Job was aborted.
+	via condor_rm (by user thibeau.wouters)
+
+	Job terminated by SHADOW <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dshadow_3771_c2b2_1756625%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=shadow_3771_c2b2_1756625> on <192.84.86.136:32153> with reverse connect address <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dshadow_2635839_c64b_2%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=shadow_2635839_c64b_2> at 2024-04-18T12:50:36Z (using method 1: DEACTIVATE_CLAIM).
+...
+028 (120894938.000.000) 2024-04-18 05:50:41 Job ad information event triggered.
+Cluster = 120894938
+EventTime = "2024-04-18T05:50:41.509"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+MyType = "JobAbortedEvent"
+Proc = 0
+Reason = "via condor_rm (by user thibeau.wouters)"
+Subproc = 0
+ToE = [ How = "DEACTIVATE_CLAIM"; Who = "SHADOW <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dshadow_3771_c2b2_1756625%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=shadow_3771_c2b2_1756625> on <192.84.86.136:32153> with reverse connect address <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dshadow_2635839_c64b_2%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=shadow_2635839_c64b_2>"; When = 1713444636; HowCode = 1 ]
+TriggerEventTypeName = "ULOG_JOB_ABORTED"
+TriggerEventTypeNumber = 9
+...
+000 (120895070.000.000) 2024-04-18 05:51:34 Job submitted from host: <192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>
+...
+028 (120895070.000.000) 2024-04-18 05:51:34 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:51:34.886"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "$$(GLIDEIN_ClusterId:Unknown)"
+JOB_GLIDEIN_Entry_Name = "$$(GLIDEIN_Entry_Name:Unknown)"
+JOB_GLIDEIN_Factory = "$$(GLIDEIN_Factory:Unknown)"
+JOB_GLIDEIN_Name = "$$(GLIDEIN_Name:Unknown)"
+JOB_GLIDEIN_ProcId = "$$(GLIDEIN_ProcId:Unknown)"
+JOB_GLIDEIN_Schedd = "$$(GLIDEIN_Schedd:Unknown)"
+JOB_GLIDEIN_Site = "$$(GLIDEIN_Site:Unknown)"
+JOB_GLIDEIN_SiteWMS = "$$(GLIDEIN_SiteWMS:Unknown)"
+JOB_GLIDEIN_SiteWMS_JobId = "$$(GLIDEIN_SiteWMS_JobId:Unknown)"
+JOB_GLIDEIN_SiteWMS_Queue = "$$(GLIDEIN_SiteWMS_Queue:Unknown)"
+JOB_GLIDEIN_SiteWMS_Slot = "$$(GLIDEIN_SiteWMS_Slot:Unknown)"
+JOB_Site = "$$(GLIDEIN_Site:Unknown)"
+MyType = "SubmitEvent"
+Proc = 0
+SubmitHost = "<192.84.86.136:9618?PrivAddr=%3c10.14.0.75:9618%3fsock%3dschedd_2898_5d8c%3e&PrivNet=LIGO-Caltech&addrs=192.84.86.136-9618&alias=ldas-osg.ligo.caltech.edu&noUDP&sock=schedd_2898_5d8c>"
+Subproc = 0
+TriggerEventTypeName = "ULOG_SUBMIT"
+TriggerEventTypeNumber = 0
+...
+040 (120895070.000.000) 2024-04-18 05:51:58 Started transferring input files
+	Transferring to host: <145.100.49.119:40238?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector2#19195840%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494588&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-40238&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+...
+028 (120895070.000.000) 2024-04-18 05:51:58 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:51:58.708"
+EventTypeNumber = 28
+Host = "<145.100.49.119:40238?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector2#19195840%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494588&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-40238&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 2
+...
+001 (120895070.000.000) 2024-04-18 05:52:03 Job executing on host: <145.100.49.119:42598?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector4#19191716%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494299&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-42598&alias=wn-a10-01.gina.surfsara.nl&noUDP>
+	SlotName: slot1_1@wn-a10-01.gina.surfsara.nl
+	AvailableGPUs = { GPUs_GPU_0cf8e464 }
+	CondorScratchDir = "/tmp/bnUMDmn7fH5nKmfV3nlrJULmABFKDmABFKDm2PKKDmnPjNDmOoBbFn/glide_WHDvPh/execute/dir_32838"
+	Cpus = 1
+	Disk = 6051028
+	GPUs = 1
+	GPUs_GPU_0cf8e464 = [ GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceName = "NVIDIA A10"; DriverVersion = 12.3; Id = "GPU-0cf8e464"; ECCEnabled = true; Capability = 8.6; MaxSupportedVersion = 12030; ClockMhz = 1695.0; ComputeUnits = 72; DevicePciBusId = "0000:00:06.0"; DeviceUuid = "0cf8e464-8426-7eb8-6bd0-c945893479b0" ]
+	Memory = 1024
+...
+028 (120895070.000.000) 2024-04-18 05:52:03 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:52:03.047"
+EventTypeNumber = 28
+ExecuteHost = "<145.100.49.119:42598?CCBID=131.215.113.81:9618%3fPrivNet%3dcondor-osg.ligo.caltech.edu%26addrs%3d131.215.113.81-9618%26alias%3dcondor-osg.ligo.caltech.edu%26noUDP%26sock%3dcollector4#19191716%20208.69.128.72:9618%3faddrs%3d208.69.128.72-9618+[2607-f390-3ff0-2016--72]-9618%26alias%3dcondor-osg.ligo-la.caltech.edu%26noUDP%26sock%3dcollector10#9494299&PrivNet=wn-a10-01.gina.surfsara.nl&addrs=145.100.49.119-42598&alias=wn-a10-01.gina.surfsara.nl&noUDP>"
+ExecuteProps = [ CondorScratchDir = "/tmp/bnUMDmn7fH5nKmfV3nlrJULmABFKDmABFKDm2PKKDmnPjNDmOoBbFn/glide_WHDvPh/execute/dir_32838"; GPUs = 1; AvailableGPUs = { GPUs_GPU_0cf8e464 }; GPUs_GPU_0cf8e464 = [ ECCEnabled = true; Id = "GPU-0cf8e464"; DriverVersion = 12.3; DeviceName = "NVIDIA A10"; GlobalMemoryMb = 22513; CoresPerCU = 128; DeviceUuid = "0cf8e464-8426-7eb8-6bd0-c945893479b0"; DevicePciBusId = "0000:00:06.0"; ComputeUnits = 72; ClockMhz = 1695.0; MaxSupportedVersion = 12030; Capability = 8.6 ]; Memory = 1024; Cpus = 1; Disk = 6051028 ]
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "ExecuteEvent"
+Proc = 0
+SlotName = "slot1_1@wn-a10-01.gina.surfsara.nl"
+Subproc = 0
+TriggerEventTypeName = "ULOG_EXECUTE"
+TriggerEventTypeNumber = 1
+...
+040 (120895070.000.000) 2024-04-18 05:52:03 Finished transferring input files
+...
+028 (120895070.000.000) 2024-04-18 05:52:03 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:52:03.047"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 3
+...
+006 (120895070.000.000) 2024-04-18 05:52:19 Image size of job updated: 17500
+	3  -  MemoryUsage of job (MB)
+	3040  -  ResidentSetSize of job (KB)
+...
+028 (120895070.000.000) 2024-04-18 05:52:19 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:52:19.476"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MemoryUsage = 3
+MyType = "JobImageSizeEvent"
+Proc = 0
+ResidentSetSize = 3040
+Size = 17500
+Subproc = 0
+TriggerEventTypeName = "ULOG_IMAGE_SIZE"
+TriggerEventTypeNumber = 6
+...
+040 (120895070.000.000) 2024-04-18 05:52:34 Started transferring output files
+...
+028 (120895070.000.000) 2024-04-18 05:52:34 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:52:34.875"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 5
+...
+040 (120895070.000.000) 2024-04-18 05:52:35 Finished transferring output files
+...
+028 (120895070.000.000) 2024-04-18 05:52:35 Job ad information event triggered.
+Cluster = 120895070
+EventTime = "2024-04-18T05:52:35.104"
+EventTypeNumber = 28
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+MyType = "FileTransferEvent"
+Proc = 0
+Subproc = 0
+TriggerEventTypeName = "ULOG_FILE_TRANSFER"
+TriggerEventTypeNumber = 40
+Type = 6
+...
+005 (120895070.000.000) 2024-04-18 05:52:37 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1237  -  Run Bytes Sent By Job
+	17157264  -  Run Bytes Received By Job
+	1237  -  Total Bytes Sent By Job
+	17157264  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :    16785  1048576   6051028 
+	   Gpus (Average)       :                 1         1 "GPU-0cf8e464"
+	   Memory (MB)          :        3     1024      1024 
+	   TimeExecute (s)      :       17                    
+	   TimeSlotBusy (s)     :       41                    
+
+	Job terminated of its own accord at 2024-04-18T12:52:19Z with exit-code 1.
+...
+028 (120895070.000.000) 2024-04-18 05:52:37 Job ad information event triggered.
+AssignedGpus = "GPU-0cf8e464"
+Cluster = 120895070
+Cpus = 1
+Disk = 6051028
+DiskUsage = 16785
+EventTime = "2024-04-18T05:52:37.431"
+EventTypeNumber = 28
+GPUs = 1
+JOB_GLIDEIN_ClusterId = "16599087"
+JOB_GLIDEIN_Entry_Name = "IGWN_SurfSARA_arc02-gpu"
+JOB_GLIDEIN_Factory = "OSG"
+JOB_GLIDEIN_Name = "gfactory_instance"
+JOB_GLIDEIN_ProcId = "0"
+JOB_GLIDEIN_Schedd = "schedd_glideins9@gfactory-2.opensciencegrid.org"
+JOB_GLIDEIN_Site = "SURFsara"
+JOB_GLIDEIN_SiteWMS = "SLURM"
+JOB_GLIDEIN_SiteWMS_JobId = "14470922"
+JOB_GLIDEIN_SiteWMS_Queue = "Unknown"
+JOB_GLIDEIN_SiteWMS_Slot = "Unknown"
+JOB_Site = "SURFsara"
+Memory = 1024
+MemoryUsage = 3
+MyType = "JobTerminatedEvent"
+Proc = 0
+ReceivedBytes = 17157264.0
+RequestCpus = 1
+RequestDisk = 1048576
+RequestGpus = 1
+RequestMemory = 1024
+ReturnValue = 1
+RunLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+RunRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+SentBytes = 1237.0
+Subproc = 0
+TerminatedNormally = true
+TimeExecuteUsage = 17
+TimeSlotBusyUsage = 41
+ToE = [ How = "OF_ITS_OWN_ACCORD"; Who = "itself"; ExitBySignal = false; When = 1713444739; HowCode = 0; ExitCode = 1 ]
+TotalLocalUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalReceivedBytes = 17157264.0
+TotalRemoteUsage = "Usr 0 00:00:00, Sys 0 00:00:00"
+TotalSentBytes = 1237.0
+TriggerEventTypeName = "ULOG_JOB_TERMINATED"
+TriggerEventTypeNumber = 5
+...

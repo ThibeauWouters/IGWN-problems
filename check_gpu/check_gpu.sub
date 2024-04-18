@@ -1,0 +1,26 @@
+universe = vanilla
+
+executable = check_gpu.py
++SingularityImage = "docker://pytorch/pytorch"
+
+request_memory = 10G
+request_disk = 10G
+request_gpus = 1
+requirements = (GPUs_Capability > 7.5)
+
+output = output_check_gpu.txt
+error  = error_check_gpu.txt
+log    = log_check_gpu.txt
+
+notification = never
+
+accounting_group = ligo.dev.o4.cbc.explore.test
+accounting_group_user = thibeau.wouters
+
+# Force IGWN, not any the local HTCondor cluster:
+requirements = IS_GLIDEIN
+
+# Specify a specific IGWN site:
+MY.DESIRED_Sites = "SURFsara"
+
+queue 1

@@ -1,0 +1,26 @@
+universe = vanilla
+
+executable = /home/thibeau.wouters/miniconda3/envs/minimal-jim/bin/python
+arguments = check_jax.py
+
+request_memory = 1G
+request_disk = 1G
+request_gpus = 1
+requirements = (GPUs_Capability > 7.5)
+
+output = output_check_jax.txt
+error  = error_check_jax.txt
+log    = log_check_jax.txt
+
+notification = never
+
+accounting_group = ligo.dev.o4.cbc.explore.test
+accounting_group_user = thibeau.wouters
+
+# Force IGWN, not any the local HTCondor cluster:
+requirements = IS_GLIDEIN
+
+# Specify a specific IGWN site:
+MY.DESIRED_Sites = "SURFsara"
+
+queue 1

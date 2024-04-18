@@ -1,0 +1,29 @@
+Could not find platform independent libraries <prefix>
+Could not find platform dependent libraries <exec_prefix>
+Consider setting $PYTHONHOME to <prefix>[:<exec_prefix>]
+Python path configuration:
+  PYTHONHOME = (not set)
+  PYTHONPATH = (not set)
+  program name = '/srv//python'
+  isolated = 0
+  environment = 1
+  user site = 1
+  import site = 1
+  sys._base_executable = '/srv//python'
+  sys.base_prefix = '/home/thibeau.wouters/miniconda3/envs/minimal-jim'
+  sys.base_exec_prefix = '/home/thibeau.wouters/miniconda3/envs/minimal-jim'
+  sys.platlibdir = 'lib'
+  sys.executable = '/srv//python'
+  sys.prefix = '/home/thibeau.wouters/miniconda3/envs/minimal-jim'
+  sys.exec_prefix = '/home/thibeau.wouters/miniconda3/envs/minimal-jim'
+  sys.path = [
+    '/home/thibeau.wouters/miniconda3/envs/minimal-jim/lib/python310.zip',
+    '/home/thibeau.wouters/miniconda3/envs/minimal-jim/lib/python3.10',
+    '/home/thibeau.wouters/miniconda3/envs/minimal-jim/lib/lib-dynload',
+  ]
+Fatal Python error: init_fs_encoding: failed to get the Python codec of the filesystem encoding
+Python runtime state: core initialized
+ModuleNotFoundError: No module named 'encodings'
+
+Current thread 0x00002adf66bf08c0 (most recent call first):
+  <no Python frame>
